@@ -38,10 +38,10 @@
 }
 
 + (NSString *)typeFromString:(NSString *)string {
-    if ([string isEqualToString:@"audio"]) {
-        return AVMediaTypeAudio;
-    } else {
+    if ([string isEqualToString:@"video"]) {
         return AVMediaTypeVideo;
+    } else {
+        return AVMediaTypeAudio;
     }
 }
 
